@@ -7,6 +7,6 @@ length = float(input('Введіть довжину в см: '))
 if length < 0:
     print('Запис невірний')
 else:
-    length = 2.54 * length
+    length = length / 2.54
     print(length)
     

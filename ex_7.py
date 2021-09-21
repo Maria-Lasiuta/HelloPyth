@@ -1,4 +1,5 @@
-my_list = [1,1,2,3,4,3,0,0]
+my_str = str(input('Введіть список :'))
+my_list = list(my_str)
 temp_list = []
 for i in my_list:
     if i not in temp_list:

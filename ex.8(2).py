@@ -1,4 +1,4 @@
-list1=['d','cccc','bb','aaa']
+list1=['d', 'cccc', 'bb', 'aaa']
 
 def mysort(mylist = [],numflag = False):
     if numflag == False:
